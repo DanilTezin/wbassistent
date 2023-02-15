@@ -1,0 +1,63 @@
+.cardInfoTableKeys {
+  text-align: start;
+  width: 450px;
+  padding-top: 10px;
+}
+.cardInfoTableValues {
+  text-align: start;
+  padding-left: 10px;
+  min-width: 100px;
+  
+}
+.cardInfoTable td span {
+  padding-right: 10px;
+}
+.cardInfoTableKeys {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+table {
+  max-height: 10px;
+}
+.currentDataOptions >tr > td{
+  border: none;
+}
+.showButton {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+.showButton:hover {
+  color: #e313bf;
+}
+.currentDataOptions > tr > td{
+  padding: 0 0 10px;
+}
+.currentDataOptions{
+  margin-top: 20px;
+}
+
+.currentDataInfo {
+  display: block;
+  max-height: 100%;
+  max-width: 400px;
+  margin-right: 30px;
+}
+.currentDataInfo h3 {
+  text-align: start;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.currentDataInfo h4 {
+  margin: 35px 0 15px 0;
+  text-align: start;
+}
+.currentDataOptions {
+  overflow: hidden;
+  max-width: 700px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}

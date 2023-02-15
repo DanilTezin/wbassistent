@@ -1,0 +1,14 @@
+.header {
+  padding: 100px 0 50px 50px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #171A1F;
+}
+ 
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+}

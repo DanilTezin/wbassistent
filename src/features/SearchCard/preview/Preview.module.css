@@ -1,0 +1,61 @@
+.cardHeader {
+  border-bottom: 1px solid silver;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  display: flex;
+  padding: 25px 50px;
+  align-items: center;
+  background: linear-gradient( 90deg, #ec238d 20%, #b82070 30%, #913475 50.02%, #862778 74.48%, #7d256f 100%);
+  border-radius: 20px;
+}
+.cardText{
+  width: 100%;
+}
+.cardText > h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: start;
+}
+
+.switchUpdateBtns {
+  display: flex;
+  width: 80%;
+  justify-content: end;
+}
+.switchUpdateBtns button:last-child {
+  margin-left: 50px;
+}
+
+.mediaName {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+}
+.previewBox {
+  margin-top: 20px;
+}
+.mediaName span {
+  font-weight: 500;
+}
+.currentMedia {
+  display: flex;
+  justify-content: space-between;
+}
+.currentInfo {
+  width: 100%;
+  margin-left: 60px;
+}
+.infoPrice {
+  text-align: start;
+  max-width: 350px;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 80px;
+}
+.currentData {
+  text-align: start;
+  display: flex;
+  justify-content: start;
+}

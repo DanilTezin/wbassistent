@@ -1,0 +1,22 @@
+definitions:
+  steps:
+    - step: &deploy
+        name: Deploy
+        script:
+          - host="host_$BITBUCKET_BRANCH"
+          - project_dir="project_dir_$BITBUCKET_BRANCH"
+          - ssh root@${!host} "cd ${!project_dir} && git pull"
+          - ssh root@${!host} "cd ${!project_dir} && npm install --force"
+          - ssh root@${!host} "cd ${!project_dir} && npm run build"
+          - ssh root@${!host} "rm -rf /var/www/wbassistent.ru/html /var/www/wbassistent.ru/static/js /var/www/wbassistent.ru/static/css /var/www/wbassistent.ru/static/media"
+          - ssh root@${!host} "mv ${!project_dir}/build/static/js /var/www/wbassistent.ru/static"
+          - ssh root@${!host} "mv ${!project_dir}/build/static/css /var/www/wbassistent.ru/static"
+          - ssh root@${!host} "mv ${!project_dir}/build/static/media /var/www/wbassistent.ru/static"
+          - ssh root@${!host} "mv ${!project_dir}/build /var/www/wbassistent.ru/html"
+          - ssh root@${!host} "service nginx restart"
+
+pipelines:
+  branches:
+    master:
+      - step: *deploy
+        deployment: Production

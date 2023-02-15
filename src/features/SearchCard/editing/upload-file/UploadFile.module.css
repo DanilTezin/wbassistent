@@ -1,0 +1,56 @@
+.photoFilePreview {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto ;
+    justify-content: center;
+}
+
+.photoFilePreview img {
+    width:  140px;
+    border: 2px solid #4a003d;
+    border-radius: 15px;
+   margin: 0 20px;
+}
+.photoFilePreview button {
+    position: absolute;
+    font-size: 18px;
+    background: none;
+    transform: translate(-80px, 10px);
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+.photoFilePreview button img {
+    width: 20px;
+    border: none;
+}
+.uploadFile {
+    margin:50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.uploadFile label {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 30px;
+    display: flex;
+    width: 300px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+    gap: 20px;
+    transition: 0.5s;
+}
+.uploadFile label:hover {
+    background: linear-gradient(90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+    color: white;
+}
+.uploadFile label  img {
+    width: 50px;
+}
+.inputFile {
+    display: none;
+}

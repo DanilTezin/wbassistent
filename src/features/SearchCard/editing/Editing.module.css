@@ -1,0 +1,54 @@
+.cardHeader {
+  border-bottom: 1px solid silver;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  display: flex;
+  padding: 25px 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient( 90deg, #ec238d 20%, #b82070 30%, #913475 50.02%, #862778 74.48%, #7d256f 100%);
+  border-radius: 20px;
+}
+.cardText{
+  width: 20%;
+}
+.cardText > h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: start;
+}
+
+.switchUpdateBtns {
+  display: flex;
+  width: 80%;
+  justify-content: end;
+}
+.switchUpdateBtns button:last-child {
+  margin-left: 50px;
+}
+
+.mediaName {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50px, -150px);
+  padding: 20px 34px;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+  border: none;
+  border-radius: 16px;
+  background-size: 200% auto;
+  transition: 0.5s;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+  color: #fff;
+}

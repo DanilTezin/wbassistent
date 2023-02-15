@@ -1,0 +1,14 @@
+
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.telegramFixed {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 10;
+}

@@ -1,0 +1,44 @@
+tr {
+    text-align: start;
+    vertical-align: sub;
+}
+
+td {
+    padding: 5px 20px;
+    border: 1px solid rgb(205, 205, 205);
+    max-width: 240px;
+}
+
+.wrapTable {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.chipInput::placeholder {
+    color: white !important;
+}
+
+.toolbar {
+    margin-top: 50px;
+}
+
+.wrapToolbar {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.wrapToolbar>button {
+    border: 0px;
+}
+
+.message {
+    border: 1px solid gray;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tableExcel {
+    display: none;
+}

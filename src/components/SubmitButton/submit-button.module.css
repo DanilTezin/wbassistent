@@ -1,0 +1,36 @@
+.button {
+  display: block;
+  border: none;
+  border-radius: 16px;
+  background-size: 200% auto;
+  transition: 0.5s;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.large {
+  padding: 24px 34px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.medium {
+  padding: 20px 34px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.small {
+  color: blue;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+  color: #fff;
+}
+
+.primary:hover {
+  background-position: bottom right;
+}

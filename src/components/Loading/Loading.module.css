@@ -1,0 +1,19 @@
+.Loading {
+  margin: 80px auto;
+  border: 15px dashed purple;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation-name: load;
+  animation-duration: 2.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes load {
+  to {
+    transform: rotate(0);
+  }
+  from {
+    transform: rotate(-360deg);
+  }
+}

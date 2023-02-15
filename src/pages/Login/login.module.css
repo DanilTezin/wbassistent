@@ -1,0 +1,57 @@
+.sectionContainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title {
+  padding: 0 0 50px;
+  margin: 0;
+  max-width: 900px;
+  color: #171a1f;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.isRegister {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #171a1f;
+  display: flex;
+  gap: 20px;
+}
+
+.subtitle {
+  font: inherit;
+  margin: 0;
+}
+
+.linkComponent {
+  text-decoration: none;
+  color: #b82070;
+  display: inline-block;
+  font: inherit;
+}
+
+.linkComponent:hover {
+  opacity: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  grid-area: form;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "form slider";
+}
+
+.spanErr {
+ font-style: italic;
+ color: brown;
+}

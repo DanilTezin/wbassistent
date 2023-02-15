@@ -1,0 +1,100 @@
+.title {
+  padding: 100px 0 50px 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #171a1f;
+  max-width: 780px;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0 0 50px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+}
+
+.span {
+  color: #b82070;
+  font-weight: 700;
+}
+
+.list {
+  margin: 0;
+  padding: 0 0 45px;
+  list-style: none;
+  background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 0px 50px 50px 0px;
+  display: grid;
+  grid-template-areas:
+    "listItem"
+    "listImage"
+    "listItem"
+    "listItem"
+    "getAccessBtn";
+}
+
+.listLogo {
+  display: block;
+  margin: 15px 0 0 30px;
+  min-width: 80px;
+  height: 80px;
+  border: 5px solid  #8d297f;
+  color: #7d256f;
+  border-radius: 50%;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.listImage {
+  max-width: 800px;
+  grid-area: "listImage";
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.listContent {
+  grid-area: "listContent";
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 740px;
+}
+
+.listItem {
+  grid-area: "listItem";
+  display: flex;
+  gap: 40px;
+}
+
+.getFullAccessLink {
+  margin: 60px auto 0;
+  padding: 25px 35px;
+  text-decoration: none;
+  max-width: 375px;
+  color: inherit;
+  background-image: linear-gradient(90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 20px;
+  grid-area: "getAccessBtn";
+}
+
+.getFullAccessLink:hover {
+  background-position: bottom right;
+}

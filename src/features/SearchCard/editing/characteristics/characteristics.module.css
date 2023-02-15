@@ -1,0 +1,60 @@
+.charcType ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.index {
+  width: 40px;
+  position: absolute;
+  transform: translate(480px,0) !important;
+  
+}
+.charcType ul li {
+  list-style: none;
+  text-align: start;
+  font-size: 24px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-between;
+  border: 1px solid #BEBEBEFF;
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+.charcType ul li i {
+  font-size: 14px;
+}
+.charcType ul li span {
+  display: block;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+.charcType input {
+  padding: 10px 10px;
+  height: 30px;
+  font-size: 18px;
+  width: 90%;
+  margin-top: 15px;
+  outline: none;
+  border-radius: 15px;
+  border: 1px solid #BEBEBEFF;
+}
+.charcType textarea {
+  padding: 10px 10px;
+  height: 30px;
+  font-size: 18px;
+  width: 400px;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid #BEBEBEFF;
+  resize: none;
+}
+
+.charcType b {
+  color: red;
+}

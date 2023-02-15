@@ -1,0 +1,190 @@
+.package {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .rightBlock {
+    width: 100%;
+  }
+  .packageInfo {
+    padding: 15px 20px;
+    text-align: start;
+    height: 100%;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #BEBEBEFF;
+  }
+
+  .index {
+  }
+  .packageInfo i {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    
+  }
+  .packageInfo h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  .packageInfo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .packageInfo input {
+    padding: 10px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid #BEBEBEFF;
+    border-radius: 10px;
+    width: 95%;
+  }
+  .packageInfo textarea {
+    width: 95%;
+    font-size: 22px;
+    padding: 10px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid #BEBEBEFF;
+    border-radius: 10px;
+    height: 250px;
+    resize: none;
+  }
+  .packageSize h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+  }
+  .packageSize {
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 1px solid #BEBEBEFF;
+    margin-right: 15px;
+    width: 200px;
+    align-items: flex-start;
+  }
+  .packageSize ul {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+  }
+  .packageSize ul li {
+    font-size: 16px;
+    text-align: start;
+    list-style: none;
+    margin-top: 10px;
+    display: block;
+    white-space: nowrap;
+  }
+  .packageSize ul li b {
+    color: rgba(255, 0, 0, 0.605);
+  }
+  .packageSize:not(.packageSize:first-child) {
+    margin-top: 25px;
+  }
+  .packageSize ul input {
+    padding: 10px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid #BEBEBEFF;
+    border-radius: 10px;
+    width: 120px;
+    text-align: start;
+    margin-top: 5px;
+  }
+  
+  .leftPackageBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  .uniqueText{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .errorUnique{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .price{
+    font-size: 22px;
+    margin: 20px 0px;
+  }
+
+  .inputPrices{
+    padding: 10px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid #BEBEBEFF;
+    border-radius: 10px;
+    width: 95%;
+  }
+.introFireText{
+  display: flex;
+  align-items: center;
+}
+  .discount{
+    font-weight: 600;
+    text-align: start;
+    font-size: 23px;
+  }
+  .modals{
+    border-radius: 50px !important;
+  }
+
+  .arrowLeft{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .inputPrice::placeholder{
+    color: #acacac !important;
+  }
+
+  .exitIcon{
+    cursor: pointer;
+    padding: 5px;
+  }
+.exitIcon:hover{
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+  .headerAmount{
+    align-items: center !important;
+    height: 40px;
+    color: white !important;
+    justify-content: center !important;
+    background: linear-gradient( 90deg, #ec238d 20%, #b82070 30%, #913475 50.02%, #862778 74.48%, #7d256f 100%);
+  }
+  .headerAmount > img{
+    position: absolute;
+    left: 20px;
+  }
+  .modalBtn{
+    height: 50px;
+    border: none !important;
+    opacity:1;
+    background: linear-gradient( 90deg, #ec238d 20%, #b82070 30%, #913475 50.02%, #862778 74.48%, #7d256f 100%);
+    transition: opacity 1s;
+  }
+.modalBtn:hover{
+  opacity: 0.8;
+}
+
+  .uniqueButton{
+    margin-top: 20px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 7px;
+  }
+
+  .removeDiscountButton{
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+  }

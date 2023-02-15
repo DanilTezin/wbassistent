@@ -1,0 +1,69 @@
+.formArticle {
+    margin-bottom: 100px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.formArticle form {
+    padding: 20px 25px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.formArticle form label {
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 23px;
+    position: relative;
+    display: block;
+    width: 100%;
+    background: linear-gradient( 90deg, #ec238d 20%, #b82070 30%, #913475 50.02%, #862778 74.48%, #7d256f 100%);
+}
+
+.formArticle form input {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 80px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    outline: 0;
+}
+
+.formArticle form label:hover {
+    background: #ec238d;
+}
+
+.formArticle form label img {
+    max-width: 100px;
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    padding-left: 30px;
+    fill: #ec238d;
+}
+
+.formArticle form button,
+.showBTNS button {
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 700;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formArticle form button:hover,
+.showBTNS button:hover {
+    color: white;
+    background: linear-gradient( 90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+}

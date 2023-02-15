@@ -1,0 +1,47 @@
+.productColors button img {
+  width: 20px;
+  height: 20px;
+}
+.productColors {
+  text-align: start;
+  margin-top: 30px;
+}
+.productColors span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.productColors i {
+  font-size: 18px;
+}
+
+.plexSlider button {
+  height: 40px;
+  margin: 40px 10px 0 10px;
+  outline: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.plexSlider button:first-child {
+  transform: rotate(-90deg);
+}
+
+.productColors .arrow:first-child {
+  height: 40px;
+  margin: 35px 25px 0 25px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+}
+.productColors .arrow:last-child {
+  height: 40px;
+  margin: 35px 25px 0 25px;
+  transform: rotate(90deg);
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  float: left;
+}

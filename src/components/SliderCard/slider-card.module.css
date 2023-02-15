@@ -1,0 +1,6 @@
+.slider {
+  grid-area: slider;
+  max-width: 500px;
+  justify-self: center;
+  height: 420px;
+}

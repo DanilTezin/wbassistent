@@ -1,0 +1,73 @@
+.headerContainer {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header {
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 60px;
+    box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
+}
+
+.market {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: inherit;
+}
+
+.first {
+    display: flex;
+    gap: 100px;
+    align-items: center
+}
+
+.second {
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    margin: 0;
+    width: 75px;
+    height: 75px;
+}
+
+.navbar {
+    padding: 24px 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.span {
+    padding-left: 5px;
+    color: #b82070;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    opacity: 50%;
+}

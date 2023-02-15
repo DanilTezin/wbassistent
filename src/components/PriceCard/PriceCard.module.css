@@ -1,0 +1,98 @@
+.card {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 270px;
+}
+
+.card:hover .header {
+  background: linear-gradient(90deg, #ec238d 0%, #bc3d96 38.02%, #8d297f 73.96%, #7d256f 100%);
+  transition: background 1s ease-in;
+}
+
+.header {
+  font-weight: bold;
+  background: #5a5a5a;
+  color: #f4f4f4;
+  padding: 15px 30px 0;
+  border-radius: 25px 25px 0 0;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.currency {
+  font-size: 25px;
+  position: relative;
+  top: -2px;
+}
+
+.amount {
+  font-size: 50px;
+}
+
+.time {
+  margin-bottom: 5px;
+}
+
+.name {
+  text-transform: uppercase;
+  background-color: #f4f4f4;
+  color: #5a5a5a;
+  transform: translatey(50%);
+  cursor: default;
+}
+
+.body {
+  margin: 0;
+  background-color: white;
+  padding: 0 30px 40px;
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bodyContainer {
+  margin: 50px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.level {
+  margin-top: 30px;
+  color: #5a5a5a;
+  padding: 10px;
+}
+
+.pros {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #f4f4f4;
+  background: #8d297f;
+  margin-top: 40px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background: #ec238d;
+}
+
+.condition {
+  color: #5a5a5a;
+  line-height: 2.5em;
+}

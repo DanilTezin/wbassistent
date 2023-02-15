@@ -1,0 +1,23 @@
+
+  .currentDataDesc {
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 80px;
+  }
+  .currentDataDesc h3 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .showButton {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+    position: absolute;
+  }
+  .showButton:hover {
+    color:#e313bf;
+  }
